@@ -1,0 +1,491 @@
+@media screen and (max-width: 856px) {
+    #page-preloader {
+        position: fixed;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 1;
+        background:#000 url('../Assets/Videos/Loading.gif') no-repeat center/contain;
+        background-size: 40% auto;
+    }
+    .Top{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 5px;
+        width: auto;
+        height: 60px;
+        background-color: rgb(10, 10, 10);
+        border-radius: 30px;
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        -ms-border-radius: 30px;
+        -o-border-radius: 30px;
+    }
+    .Flex-Center{
+        display: flex;
+        justify-content: center;
+    }
+    .P-text{
+        margin-left: 10px;
+    }
+    .Typewriter{
+        display: flex;
+    }
+    .Bigger-Text{
+        padding-left: 20px;
+        font-size: large;
+        text-align: center;
+    }
+
+    .Small-Logo{
+        width: 50px;
+        height: 50px;
+    }
+    #changing-text {
+        overflow: hidden;
+    }
+    
+    .blink {
+        animation: blink 2s ease infinite;
+        -webkit-animation: blink 2s ease infinite;
+    }
+    
+    @keyframes blink {
+        0%, 50%, 100% {
+            opacity: 1;
+        }
+        25%, 75% {
+            opacity: 0;
+        }
+    }
+    .Desc{
+        display: flex;
+        justify-content: center;
+        padding-top: 5px;
+        width: auto;
+        margin: 30px auto auto;
+        background-color: rgb(10, 10, 10);
+        border-radius: 30px;
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        -ms-border-radius: 30px;
+        -o-border-radius: 30px;
+    }
+    .Desc2{
+        display: flex;
+        justify-content: center;
+        padding-top: 5px;
+        width: auto;
+        margin: 30px auto auto;
+        background-color: rgb(10, 10, 10);
+        border-radius: 30px;
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        -ms-border-radius: 30px;
+        -o-border-radius: 30px;
+    }
+    #changing-text-2{
+        overflow: hidden;
+    }
+    .Desc-Text{
+        font-family: "Josefin Sans", serif;
+        font-size: x-large;
+        text-align: center;
+    }
+    .Buttons-Div{
+        display: flex;
+        justify-content: center;
+    }
+    .Buttons-L{
+        display: flex;
+        justify-content: center;
+        margin: 40px auto auto;
+        width: 49%;
+        background-color: rgb(10, 10, 10);
+        border-color: white;
+        border-radius: 20px 0 0 20px;
+        -webkit-border-radius: 20px 0 0 20px;
+        -moz-border-radius: 20px 0 0 20px;
+        -ms-border-radius: 20px 0px 0px 20px;
+        -o-border-radius: 20px 0px 0px 20px;
+        text-decoration: none;
+        transition: all 0.4s ;
+        -webkit-transition: all 0.4s ;
+        -moz-transition: all 0.4s ;
+        -ms-transition: all 0.4s ;
+        -o-transition: all 0.4s ;
+    }
+    .Buttons-L:hover{
+        transform: scale(1.05);
+        -webkit-transform: scale(1.05);
+        -moz-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+        -o-transform: scale(1.05);
+}
+    .Buttons-R{
+        display: flex;
+        justify-content: center;
+        margin: 40px auto auto;
+        width: 49%;
+        background-color: rgb(10, 10, 10);
+        border-color: white;
+        border-radius: 0 20px 20px 0;
+        -webkit-border-radius: 0 20px 20px 0;
+        -moz-border-radius: 0 20px 20px 0;
+        -ms-border-radius: 0px 20px 20px 0px;
+        -o-border-radius: 0px 20px 20px 0px;
+        text-decoration: none;
+        transition: all 0.4s ;
+        -webkit-transition: all 0.4s ;
+        -moz-transition: all 0.4s ;
+        -ms-transition: all 0.4s ;
+        -o-transition: all 0.4s ;
+    }
+    .Buttons-R:hover{
+        transform: scale(1.05);
+        -webkit-transform: scale(1.05);
+        -moz-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+        -o-transform: scale(1.05);
+}
+    .Links-L{
+        cursor: pointer;
+        background-color: rgb(10, 10, 10);
+        width: 100%;
+        border-color: white;
+        border-radius: 20px 0 0 20px;
+        -webkit-border-radius: 20px 0 0 20px;
+        -moz-border-radius: 20px 0 0 20px;
+        -ms-border-radius: 20px 0px 0px 20px;
+        -o-border-radius: 20px 0px 0px 20px;
+        font-size: large;
+        font-family: Quicksand, serif;
+    
+    }
+    .Links-R{
+        cursor: pointer;
+        font-family: Quicksand, serif;
+        background-color: rgb(10, 10, 10);
+        width: 100%;
+        border-color: white;
+        border-radius: 0 20px 20px 0;
+        -webkit-border-radius: 0 20px 20px 0;
+        -moz-border-radius: 0 20px 20px 0;
+        -ms-border-radius: 0px 20px 20px 0px;
+        -o-border-radius: 0px 20px 20px 0px;
+        font-size: large;
+    }
+    .Buttons-M{
+        display: flex;
+        justify-content: center;
+        margin: 40px auto auto;
+        width: 100%;
+        background-color: rgb(10, 10, 10);
+        border-color: white;
+        border-radius: 20px 20px 20px 20px;
+        -webkit-border-radius: 20px 20px 20px 20px;
+        -moz-border-radius: 20px 20px 20px 20px;
+        -ms-border-radius: 20px 20px 20px 20px;
+        -o-border-radius: 20px 20px 20px 20px;
+        text-decoration: none;
+        transition: all 0.4s;
+        -webkit-transition: all 0.4s;
+        -moz-transition: all 0.4s;
+        -ms-transition: all 0.4s;
+        -o-transition: all 0.4s;
+    }
+    .Buttons-M:hover{
+        transform: scale(1.01);
+        -webkit-transform: scale(1.01);
+        -moz-transform: scale(1.01);
+        -ms-transform: scale(1.01);
+        -o-transform: scale(1.01);
+    }
+    .Links-M{
+        cursor: pointer;
+        font-family: Quicksand, serif;
+        background-color: rgb(10, 10, 10);
+        width: 100%;
+        border-color: white;
+        border-radius: 20px 20px 20px 20px;
+        -webkit-border-radius: 20px 20px 20px 20px;
+        -moz-border-radius: 20px 20px 20px 20px;
+        -ms-border-radius: 20px 20px 20px 20px;
+        -o-border-radius: 20px 20px 20px 20px;
+        font-size: x-large;
+    }
+    .Footer-Text{
+        text-align: center;
+    }
+}
+@media screen and (max-width:410px) {
+    
+    .Links-L{
+        cursor: pointer;
+        background-color: rgb(10, 10, 10);
+        width: 100%;
+        border-color: white;
+        border-radius: 20px 0 0 20px;
+        -webkit-border-radius: 20px 0 0 20px;
+        -moz-border-radius: 20px 0 0 20px;
+        -ms-border-radius: 20px 0px 0px 20px;
+        -o-border-radius: 20px 0px 0px 20px;
+        font-size: medium;
+        font-family: Quicksand, serif;
+    
+    }
+    .Links-R{
+        cursor: pointer;
+        font-family: Quicksand, serif;
+        background-color: rgb(10, 10, 10);
+        width: 100%;
+        border-color: white;
+        border-radius: 0 20px 20px 0;
+        -webkit-border-radius: 0 20px 20px 0;
+        -moz-border-radius: 0 20px 20px 0;
+        -ms-border-radius: 0px 20px 20px 0px;
+        -o-border-radius: 0px 20px 20px 0px;
+        font-size: medium;
+    }
+    
+}
+@media screen and (max-width: 370px) {
+    .Links-L{
+        cursor: pointer;
+        background-color: rgb(10, 10, 10);
+        width: 100%;
+        border-color: white;
+        border-radius: 20px 0 0 20px;
+        -webkit-border-radius: 20px 0 0 20px;
+        -moz-border-radius: 20px 0 0 20px;
+        -ms-border-radius: 20px 0px 0px 20px;
+        -o-border-radius: 20px 0px 0px 20px;
+        font-size: small;
+        font-family: Quicksand, serif;
+    
+    }
+    .Links-R{
+        cursor: pointer;
+        font-family: Quicksand, serif;
+        background-color: rgb(10, 10, 10);
+        width: 100%;
+        border-color: white;
+        border-radius: 0 20px 20px 0;
+        -webkit-border-radius: 0 20px 20px 0;
+        -moz-border-radius: 0 20px 20px 0;
+        -ms-border-radius: 0px 20px 20px 0px;
+        -o-border-radius: 0px 20px 20px 0px;
+        font-size: small;
+    }
+    
+}
+@media screen and (max-width: 309px) {
+    .Bigger-Text{
+        padding-left: 20px;
+        font-size: medium;
+        text-align: center;
+    }
+
+    .Desc-Text{
+        font-family: "Josefin Sans", serif;
+        font-size: large;
+        text-align: center;
+    }
+    .Links-L{
+        cursor: pointer;
+        background-color: rgb(10, 10, 10);
+        width: 100%;
+        border-color: white;
+        border-radius: 20px 0 0 20px;
+        -webkit-border-radius: 20px 0 0 20px;
+        -moz-border-radius: 20px 0 0 20px;
+        -ms-border-radius: 20px 0px 0px 20px;
+        -o-border-radius: 20px 0px 0px 20px;
+        font-size: x-small;
+        font-family: Quicksand, serif;
+    
+    }
+    .Links-R{
+        cursor: pointer;
+        font-family: Quicksand, serif;
+        background-color: rgb(10, 10, 10);
+        width: 100%;
+        border-color: white;
+        border-radius: 0 20px 20px 0;
+        -webkit-border-radius: 0 20px 20px 0;
+        -moz-border-radius: 0 20px 20px 0;
+        -ms-border-radius: 0px 20px 20px 0px;
+        -o-border-radius: 0px 20px 20px 0px;
+        font-size: x-small;
+    }
+    .Links-M{
+        cursor: pointer;
+        font-family: Quicksand, serif;
+        background-color: rgb(10, 10, 10);
+        width: 100%;
+        border-color: white;
+        border-radius: 20px 20px 20px 20px;
+        -webkit-border-radius: 20px 20px 20px 20px;
+        -moz-border-radius: 20px 20px 20px 20px;
+        -ms-border-radius: 20px 20px 20px 20px;
+        -o-border-radius: 20px 20px 20px 20px;
+        font-size: large;
+    }
+    .Footer-Text{
+        text-align: center;
+    }
+}
+@media screen and (max-width: 250px) {
+    .Bigger-Text{
+        padding-left: 20px;
+        font-size: small;
+        text-align: center;
+    }
+
+    .Desc-Text{
+        font-family: "Josefin Sans", serif;
+        font-size: medium;
+        text-align: center;
+    }
+    .Links-L{
+        cursor: pointer;
+        background-color: rgb(10, 10, 10);
+        width: 100%;
+        border-color: white;
+        border-radius: 20px 0 0 20px;
+        -webkit-border-radius: 20px 0 0 20px;
+        -moz-border-radius: 20px 0 0 20px;
+        -ms-border-radius: 20px 0px 0px 20px;
+        -o-border-radius: 20px 0px 0px 20px;
+        font-size: xx-small;
+        font-family: Quicksand, serif;
+    
+    }
+    
+    .Links-R{
+        cursor: pointer;
+        font-family: Quicksand, serif;
+        background-color: rgb(10, 10, 10);
+        width: 100%;
+        border-color: white;
+        border-radius: 0 20px 20px 0;
+        -webkit-border-radius: 0 20px 20px 0;
+        -moz-border-radius: 0 20px 20px 0;
+        -ms-border-radius: 0px 20px 20px 0px;
+        -o-border-radius: 0px 20px 20px 0px;
+        font-size: xx-small;
+    }
+    .Links-M{
+        cursor: pointer;
+        font-family: Quicksand, serif;
+        background-color: rgb(10, 10, 10);
+        width: 100%;
+        border-color: white;
+        border-radius: 20px 20px 20px 20px;
+        -webkit-border-radius: 20px 20px 20px 20px;
+        -moz-border-radius: 20px 20px 20px 20px;
+        -ms-border-radius: 20px 20px 20px 20px;
+        -o-border-radius: 20px 20px 20px 20px;
+        font-size: medium;
+    }
+    .Footer -Text{
+        padding-left: 20px;
+        font-size: small;
+        text-align: center;
+    }
+    
+}
+@media screen and (max-width: 230px) {
+    .Links-L{
+        cursor: pointer;
+        background-color: rgb(10, 10, 10);
+        width: 100%;
+        border-color: white;
+        border-radius: 20px 0 0 20px;
+        -webkit-border-radius: 20px 0 0 20px;
+        -moz-border-radius: 20px 0 0 20px;
+        -ms-border-radius: 20px 0px 0px 20px;
+        -o-border-radius: 20px 0px 0px 20px;
+        font-size:8px;
+        font-family: Quicksand, serif;
+    
+    }
+    
+    .Links-R{
+        cursor: pointer;
+        font-family: Quicksand, serif;
+        background-color: rgb(10, 10, 10);
+        width: 100%;
+        border-color: white;
+        border-radius: 0 20px 20px 0;
+        -webkit-border-radius: 0 20px 20px 0;
+        -moz-border-radius: 0 20px 20px 0;
+        -ms-border-radius: 0px 20px 20px 0px;
+        -o-border-radius: 0px 20px 20px 0px;
+        font-size: 8px;
+    }
+    .Links-M{
+        cursor: pointer;
+        font-family: Quicksand, serif;
+        background-color: rgb(10, 10, 10);
+        width: 100%;
+        border-color: white;
+        border-radius: 20px 20px 20px 20px;
+        -webkit-border-radius: 20px 20px 20px 20px;
+        -moz-border-radius: 20px 20px 20px 20px;
+        -ms-border-radius: 20px 20px 20px 20px;
+        -o-border-radius: 20px 20px 20px 20px;
+        font-size: small;
+    }
+    
+}
+@media screen and (max-width: 210px) {
+    .Desc-Text{
+        font-family: "Josefin Sans", serif;
+        font-size: large;
+        text-align: center;
+    }
+    .Links-L{
+        cursor: pointer;
+        background-color: rgb(10, 10, 10);
+        width: 100%;
+        border-color: white;
+        border-radius: 20px 0 0 20px;
+        -webkit-border-radius: 20px 0 0 20px;
+        -moz-border-radius: 20px 0 0 20px;
+        -ms-border-radius: 20px 0px 0px 20px;
+        -o-border-radius: 20px 0px 0px 20px;
+        font-size:4px;
+        font-family: Quicksand, serif;
+    
+    }
+    .Links-R{
+        cursor: pointer;
+        font-family: Quicksand, serif;
+        background-color: rgb(10, 10, 10);
+        width: 100%;
+        border-color: white;
+        border-radius: 0 20px 20px 0;
+        -webkit-border-radius: 0 20px 20px 0;
+        -moz-border-radius: 0 20px 20px 0;
+        -ms-border-radius: 0px 20px 20px 0px;
+        -o-border-radius: 0px 20px 20px 0px;
+        font-size: 4px;
+    }
+    .Links-M{
+        cursor: pointer;
+        font-family: Quicksand, serif;
+        background-color: rgb(10, 10, 10);
+        width: 100%;
+        border-color: white;
+        border-radius: 20px 20px 20px 20px;
+        -webkit-border-radius: 20px 20px 20px 20px;
+        -moz-border-radius: 20px 20px 20px 20px;
+        -ms-border-radius: 20px 20px 20px 20px;
+        -o-border-radius: 20px 20px 20px 20px;
+        font-size: smaller;
+    }
+    
+}
