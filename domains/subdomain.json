@@ -3,10 +3,9 @@
     "repo": "https://github.com/ultimduck/ultimduck.github.io",
     "owner": {
         "username": "ultimduck",
-        "email": "email@address",
-        "twitter": "<twitter-username>"
+        "email": "zultimduk@gmail.com"
     },
     "record": {
-        "CNAME": "<username>.github.io"
+        "CNAME": "ultimduck.github.io"
     }
 } 
