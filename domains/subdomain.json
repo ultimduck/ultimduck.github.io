@@ -1,0 +1,12 @@
+{
+    "description": "just desc",
+    "repo": "https://github.com/ultimduck/ultimduck.github.io",
+    "owner": {
+        "username": "ultimduck",
+        "email": "email@address",
+        "twitter": "<twitter-username>"
+    },
+    "record": {
+        "CNAME": "<username>.github.io"
+    }
+} 
