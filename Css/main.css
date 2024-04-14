@@ -1,6 +1,6 @@
 *{
     box-sizing: border-box;
-    font-family: "Roboto", serif;
+    font-family: "Roboto";
     color: white;
 }
 #page-preloader {
@@ -36,8 +36,8 @@ body{
     width: auto;
     height: 110px;
     margin: auto;
-    background: url(../Assets/Videos/Chilling.gif)center center;
-    background-size :cover;
+    background: url(../Assets/Videos/Profile.gif)center center;
+    background-size:cover;
     border-radius: 30px;
     -webkit-border-radius: 30px;
     -moz-border-radius: 30px;
@@ -55,6 +55,7 @@ body{
     display: flex;
 }
 .Bigger-Text{
+    color:#ffffff;
     padding-left: 20px;
     font-size: xx-large;
 }
@@ -87,7 +88,8 @@ body{
     justify-content: center;
     padding-top: 5px;
     width: auto;
-    margin: 30px auto auto;
+    margin: auto;
+    margin-top: 30px;
     background-color: rgb(10, 10, 10);
     border-radius: 30px;
     -webkit-border-radius: 30px;
@@ -96,7 +98,7 @@ body{
     -o-border-radius: 30px;
 }
 .Desc-Text{
-    font-family: "Josefin Sans", serif;
+    font-family: "Josefin Sans";
     font-size: xx-large;
     text-align: center;
 }
@@ -105,7 +107,8 @@ body{
     justify-content: center;
     padding-top: 5px;
     width: auto;
-    margin: 30px auto auto;
+    margin: auto;
+    margin-top: 30px;
     background-color: rgb(10, 10, 10);
     border-radius: 30px;
     -webkit-border-radius: 30px;
@@ -138,13 +141,14 @@ body{
 .Buttons-L{
     display: flex;
     justify-content: center;
-    margin: 40px auto auto;
+    margin:auto ;
+    margin-top: 40px;
     width: 49%;
     background-color: rgb(10, 10, 10);
     border-color: white;
-    border-radius: 20px 0 0 20px;
-    -webkit-border-radius: 20px 0 0 20px;
-    -moz-border-radius: 20px 0 0 20px;
+    border-radius: 20px 0px 0px 20px;
+    -webkit-border-radius: 20px 0px 0px 20px;
+    -moz-border-radius: 20px 0px 0px 20px;
     -ms-border-radius: 20px 0px 0px 20px;
     -o-border-radius: 20px 0px 0px 20px;
     text-decoration: none;
@@ -164,13 +168,14 @@ body{
 .Buttons-R{
     display: flex;
     justify-content: center;
-    margin: 40px auto auto;
+    margin:auto ;
+    margin-top: 40px;
     width: 49%;
     background-color: rgb(10, 10, 10);
     border-color: white;
-    border-radius: 0 20px 20px 0;
-    -webkit-border-radius: 0 20px 20px 0;
-    -moz-border-radius: 0 20px 20px 0;
+    border-radius: 0px 20px 20px 0px;
+    -webkit-border-radius: 0px 20px 20px 0px;
+    -moz-border-radius: 0px 20px 20px 0px;
     -ms-border-radius: 0px 20px 20px 0px;
     -o-border-radius: 0px 20px 20px 0px;
     text-decoration: none;
@@ -194,24 +199,24 @@ body{
     background-color: rgb(10, 10, 10);
     width: 100%;
     border-color: white;
-    border-radius: 20px 0 0 20px;
-    -webkit-border-radius: 20px 0 0 20px;
-    -moz-border-radius: 20px 0 0 20px;
+    border-radius: 20px 0px 0px 20px;
+    -webkit-border-radius: 20px 0px 0px 20px;
+    -moz-border-radius: 20px 0px 0px 20px;
     -ms-border-radius: 20px 0px 0px 20px;
     -o-border-radius: 20px 0px 0px 20px;
     font-size: xx-large;
-    font-family: Quicksand, serif;
+    font-family: Quicksand;
 
 }
 .Links-R{
     cursor:pointer;
-    font-family: Quicksand, serif;
+    font-family: Quicksand;
     background-color: rgb(10, 10, 10);
     width: 100%;
     border-color: white;
-    border-radius: 0 20px 20px 0;
-    -webkit-border-radius: 0 20px 20px 0;
-    -moz-border-radius: 0 20px 20px 0;
+    border-radius: 0px 20px 20px 0px;
+    -webkit-border-radius: 0px 20px 20px 0px;
+    -moz-border-radius: 0px 20px 20px 0px;
     -ms-border-radius: 0px 20px 20px 0px;
     -o-border-radius: 0px 20px 20px 0px;
     font-size: xx-large;
@@ -219,7 +224,8 @@ body{
 .Buttons-M{
     display: flex;
     justify-content: center;
-    margin: 40px auto auto;
+    margin:auto ;
+    margin-top: 40px;
     width: 100%;
     background-color: rgb(10, 10, 10);
     border-color: white;
@@ -244,7 +250,7 @@ body{
 }
 .Links-M{
     cursor:pointer;
-    font-family: Quicksand, serif;
+    font-family: Quicksand;
     background-color: rgb(10, 10, 10);
     width: 100%;
     border-color: white;

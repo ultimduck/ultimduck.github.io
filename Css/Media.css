@@ -65,7 +65,8 @@
         justify-content: center;
         padding-top: 5px;
         width: auto;
-        margin: 30px auto auto;
+        margin: auto;
+        margin-top: 30px;
         background-color: rgb(10, 10, 10);
         border-radius: 30px;
         -webkit-border-radius: 30px;
@@ -78,7 +79,8 @@
         justify-content: center;
         padding-top: 5px;
         width: auto;
-        margin: 30px auto auto;
+        margin: auto;
+        margin-top: 30px;
         background-color: rgb(10, 10, 10);
         border-radius: 30px;
         -webkit-border-radius: 30px;
@@ -90,7 +92,7 @@
         overflow: hidden;
     }
     .Desc-Text{
-        font-family: "Josefin Sans", serif;
+        font-family: "Josefin Sans";
         font-size: x-large;
         text-align: center;
     }
@@ -101,13 +103,14 @@
     .Buttons-L{
         display: flex;
         justify-content: center;
-        margin: 40px auto auto;
+        margin:auto ;
+        margin-top: 40px;
         width: 49%;
         background-color: rgb(10, 10, 10);
         border-color: white;
-        border-radius: 20px 0 0 20px;
-        -webkit-border-radius: 20px 0 0 20px;
-        -moz-border-radius: 20px 0 0 20px;
+        border-radius: 20px 0px 0px 20px;
+        -webkit-border-radius: 20px 0px 0px 20px;
+        -moz-border-radius: 20px 0px 0px 20px;
         -ms-border-radius: 20px 0px 0px 20px;
         -o-border-radius: 20px 0px 0px 20px;
         text-decoration: none;
@@ -127,13 +130,14 @@
     .Buttons-R{
         display: flex;
         justify-content: center;
-        margin: 40px auto auto;
+        margin:auto ;
+        margin-top: 40px;
         width: 49%;
         background-color: rgb(10, 10, 10);
         border-color: white;
-        border-radius: 0 20px 20px 0;
-        -webkit-border-radius: 0 20px 20px 0;
-        -moz-border-radius: 0 20px 20px 0;
+        border-radius: 0px 20px 20px 0px;
+        -webkit-border-radius: 0px 20px 20px 0px;
+        -moz-border-radius: 0px 20px 20px 0px;
         -ms-border-radius: 0px 20px 20px 0px;
         -o-border-radius: 0px 20px 20px 0px;
         text-decoration: none;
@@ -155,24 +159,24 @@
         background-color: rgb(10, 10, 10);
         width: 100%;
         border-color: white;
-        border-radius: 20px 0 0 20px;
-        -webkit-border-radius: 20px 0 0 20px;
-        -moz-border-radius: 20px 0 0 20px;
+        border-radius: 20px 0px 0px 20px;
+        -webkit-border-radius: 20px 0px 0px 20px;
+        -moz-border-radius: 20px 0px 0px 20px;
         -ms-border-radius: 20px 0px 0px 20px;
         -o-border-radius: 20px 0px 0px 20px;
         font-size: large;
-        font-family: Quicksand, serif;
+        font-family: Quicksand;
     
     }
     .Links-R{
         cursor: pointer;
-        font-family: Quicksand, serif;
+        font-family: Quicksand;
         background-color: rgb(10, 10, 10);
         width: 100%;
         border-color: white;
-        border-radius: 0 20px 20px 0;
-        -webkit-border-radius: 0 20px 20px 0;
-        -moz-border-radius: 0 20px 20px 0;
+        border-radius: 0px 20px 20px 0px;
+        -webkit-border-radius: 0px 20px 20px 0px;
+        -moz-border-radius: 0px 20px 20px 0px;
         -ms-border-radius: 0px 20px 20px 0px;
         -o-border-radius: 0px 20px 20px 0px;
         font-size: large;
@@ -180,7 +184,8 @@
     .Buttons-M{
         display: flex;
         justify-content: center;
-        margin: 40px auto auto;
+        margin:auto ;
+        margin-top: 40px;
         width: 100%;
         background-color: rgb(10, 10, 10);
         border-color: white;
@@ -205,7 +210,7 @@
     }
     .Links-M{
         cursor: pointer;
-        font-family: Quicksand, serif;
+        font-family: Quicksand;
         background-color: rgb(10, 10, 10);
         width: 100%;
         border-color: white;
@@ -227,24 +232,24 @@
         background-color: rgb(10, 10, 10);
         width: 100%;
         border-color: white;
-        border-radius: 20px 0 0 20px;
-        -webkit-border-radius: 20px 0 0 20px;
-        -moz-border-radius: 20px 0 0 20px;
+        border-radius: 20px 0px 0px 20px;
+        -webkit-border-radius: 20px 0px 0px 20px;
+        -moz-border-radius: 20px 0px 0px 20px;
         -ms-border-radius: 20px 0px 0px 20px;
         -o-border-radius: 20px 0px 0px 20px;
         font-size: medium;
-        font-family: Quicksand, serif;
+        font-family: Quicksand;
     
     }
     .Links-R{
         cursor: pointer;
-        font-family: Quicksand, serif;
+        font-family: Quicksand;
         background-color: rgb(10, 10, 10);
         width: 100%;
         border-color: white;
-        border-radius: 0 20px 20px 0;
-        -webkit-border-radius: 0 20px 20px 0;
-        -moz-border-radius: 0 20px 20px 0;
+        border-radius: 0px 20px 20px 0px;
+        -webkit-border-radius: 0px 20px 20px 0px;
+        -moz-border-radius: 0px 20px 20px 0px;
         -ms-border-radius: 0px 20px 20px 0px;
         -o-border-radius: 0px 20px 20px 0px;
         font-size: medium;
@@ -257,24 +262,24 @@
         background-color: rgb(10, 10, 10);
         width: 100%;
         border-color: white;
-        border-radius: 20px 0 0 20px;
-        -webkit-border-radius: 20px 0 0 20px;
-        -moz-border-radius: 20px 0 0 20px;
+        border-radius: 20px 0px 0px 20px;
+        -webkit-border-radius: 20px 0px 0px 20px;
+        -moz-border-radius: 20px 0px 0px 20px;
         -ms-border-radius: 20px 0px 0px 20px;
         -o-border-radius: 20px 0px 0px 20px;
         font-size: small;
-        font-family: Quicksand, serif;
+        font-family: Quicksand;
     
     }
     .Links-R{
         cursor: pointer;
-        font-family: Quicksand, serif;
+        font-family: Quicksand;
         background-color: rgb(10, 10, 10);
         width: 100%;
         border-color: white;
-        border-radius: 0 20px 20px 0;
-        -webkit-border-radius: 0 20px 20px 0;
-        -moz-border-radius: 0 20px 20px 0;
+        border-radius: 0px 20px 20px 0px;
+        -webkit-border-radius: 0px 20px 20px 0px;
+        -moz-border-radius: 0px 20px 20px 0px;
         -ms-border-radius: 0px 20px 20px 0px;
         -o-border-radius: 0px 20px 20px 0px;
         font-size: small;
@@ -289,7 +294,7 @@
     }
 
     .Desc-Text{
-        font-family: "Josefin Sans", serif;
+        font-family: "Josefin Sans";
         font-size: large;
         text-align: center;
     }
@@ -298,31 +303,31 @@
         background-color: rgb(10, 10, 10);
         width: 100%;
         border-color: white;
-        border-radius: 20px 0 0 20px;
-        -webkit-border-radius: 20px 0 0 20px;
-        -moz-border-radius: 20px 0 0 20px;
+        border-radius: 20px 0px 0px 20px;
+        -webkit-border-radius: 20px 0px 0px 20px;
+        -moz-border-radius: 20px 0px 0px 20px;
         -ms-border-radius: 20px 0px 0px 20px;
         -o-border-radius: 20px 0px 0px 20px;
         font-size: x-small;
-        font-family: Quicksand, serif;
+        font-family: Quicksand;
     
     }
     .Links-R{
         cursor: pointer;
-        font-family: Quicksand, serif;
+        font-family: Quicksand;
         background-color: rgb(10, 10, 10);
         width: 100%;
         border-color: white;
-        border-radius: 0 20px 20px 0;
-        -webkit-border-radius: 0 20px 20px 0;
-        -moz-border-radius: 0 20px 20px 0;
+        border-radius: 0px 20px 20px 0px;
+        -webkit-border-radius: 0px 20px 20px 0px;
+        -moz-border-radius: 0px 20px 20px 0px;
         -ms-border-radius: 0px 20px 20px 0px;
         -o-border-radius: 0px 20px 20px 0px;
         font-size: x-small;
     }
     .Links-M{
         cursor: pointer;
-        font-family: Quicksand, serif;
+        font-family: Quicksand;
         background-color: rgb(10, 10, 10);
         width: 100%;
         border-color: white;
@@ -345,7 +350,7 @@
     }
 
     .Desc-Text{
-        font-family: "Josefin Sans", serif;
+        font-family: "Josefin Sans";
         font-size: medium;
         text-align: center;
     }
@@ -354,32 +359,32 @@
         background-color: rgb(10, 10, 10);
         width: 100%;
         border-color: white;
-        border-radius: 20px 0 0 20px;
-        -webkit-border-radius: 20px 0 0 20px;
-        -moz-border-radius: 20px 0 0 20px;
+        border-radius: 20px 0px 0px 20px;
+        -webkit-border-radius: 20px 0px 0px 20px;
+        -moz-border-radius: 20px 0px 0px 20px;
         -ms-border-radius: 20px 0px 0px 20px;
         -o-border-radius: 20px 0px 0px 20px;
         font-size: xx-small;
-        font-family: Quicksand, serif;
+        font-family: Quicksand;
     
     }
     
     .Links-R{
         cursor: pointer;
-        font-family: Quicksand, serif;
+        font-family: Quicksand;
         background-color: rgb(10, 10, 10);
         width: 100%;
         border-color: white;
-        border-radius: 0 20px 20px 0;
-        -webkit-border-radius: 0 20px 20px 0;
-        -moz-border-radius: 0 20px 20px 0;
+        border-radius: 0px 20px 20px 0px;
+        -webkit-border-radius: 0px 20px 20px 0px;
+        -moz-border-radius: 0px 20px 20px 0px;
         -ms-border-radius: 0px 20px 20px 0px;
         -o-border-radius: 0px 20px 20px 0px;
         font-size: xx-small;
     }
     .Links-M{
         cursor: pointer;
-        font-family: Quicksand, serif;
+        font-family: Quicksand;
         background-color: rgb(10, 10, 10);
         width: 100%;
         border-color: white;
@@ -403,32 +408,32 @@
         background-color: rgb(10, 10, 10);
         width: 100%;
         border-color: white;
-        border-radius: 20px 0 0 20px;
-        -webkit-border-radius: 20px 0 0 20px;
-        -moz-border-radius: 20px 0 0 20px;
+        border-radius: 20px 0px 0px 20px;
+        -webkit-border-radius: 20px 0px 0px 20px;
+        -moz-border-radius: 20px 0px 0px 20px;
         -ms-border-radius: 20px 0px 0px 20px;
         -o-border-radius: 20px 0px 0px 20px;
         font-size:8px;
-        font-family: Quicksand, serif;
+        font-family: Quicksand;
     
     }
     
     .Links-R{
         cursor: pointer;
-        font-family: Quicksand, serif;
+        font-family: Quicksand;
         background-color: rgb(10, 10, 10);
         width: 100%;
         border-color: white;
-        border-radius: 0 20px 20px 0;
-        -webkit-border-radius: 0 20px 20px 0;
-        -moz-border-radius: 0 20px 20px 0;
+        border-radius: 0px 20px 20px 0px;
+        -webkit-border-radius: 0px 20px 20px 0px;
+        -moz-border-radius: 0px 20px 20px 0px;
         -ms-border-radius: 0px 20px 20px 0px;
         -o-border-radius: 0px 20px 20px 0px;
         font-size: 8px;
     }
     .Links-M{
         cursor: pointer;
-        font-family: Quicksand, serif;
+        font-family: Quicksand;
         background-color: rgb(10, 10, 10);
         width: 100%;
         border-color: white;
@@ -443,7 +448,7 @@
 }
 @media screen and (max-width: 210px) {
     .Desc-Text{
-        font-family: "Josefin Sans", serif;
+        font-family: "Josefin Sans";
         font-size: large;
         text-align: center;
     }
@@ -452,31 +457,31 @@
         background-color: rgb(10, 10, 10);
         width: 100%;
         border-color: white;
-        border-radius: 20px 0 0 20px;
-        -webkit-border-radius: 20px 0 0 20px;
-        -moz-border-radius: 20px 0 0 20px;
+        border-radius: 20px 0px 0px 20px;
+        -webkit-border-radius: 20px 0px 0px 20px;
+        -moz-border-radius: 20px 0px 0px 20px;
         -ms-border-radius: 20px 0px 0px 20px;
         -o-border-radius: 20px 0px 0px 20px;
         font-size:4px;
-        font-family: Quicksand, serif;
+        font-family: Quicksand;
     
     }
     .Links-R{
         cursor: pointer;
-        font-family: Quicksand, serif;
+        font-family: Quicksand;
         background-color: rgb(10, 10, 10);
         width: 100%;
         border-color: white;
-        border-radius: 0 20px 20px 0;
-        -webkit-border-radius: 0 20px 20px 0;
-        -moz-border-radius: 0 20px 20px 0;
+        border-radius: 0px 20px 20px 0px;
+        -webkit-border-radius: 0px 20px 20px 0px;
+        -moz-border-radius: 0px 20px 20px 0px;
         -ms-border-radius: 0px 20px 20px 0px;
         -o-border-radius: 0px 20px 20px 0px;
         font-size: 4px;
     }
     .Links-M{
         cursor: pointer;
-        font-family: Quicksand, serif;
+        font-family: Quicksand;
         background-color: rgb(10, 10, 10);
         width: 100%;
         border-color: white;

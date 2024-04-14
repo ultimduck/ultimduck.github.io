@@ -1,13 +1,13 @@
 document.addEventListener("DOMContentLoaded", function() {
-    const texts = ["Abyss", "The Dumbass", "An Idiot"];
-    const changingText = document.getElementById("changing-text");
-    let counter = 0;
-    let currentText = "";
-    let isDeleting = false;
-    const typingSpeed = 100; // Adjust typing speed (in milliseconds)
+    var texts = ["Abyss","The Dumbass","An Idiot"];
+    var changingText = document.getElementById("changing-text");
+    var counter = 0;
+    var currentText = "";
+    var isDeleting = false;
+    var typingSpeed = 100; // Adjust typing speed (in milliseconds)
 
     function typeText() {
-        const text = texts[counter];
+        var text = texts[counter];
 
         if (isDeleting) {
             currentText = text.substring(0, currentText.length - 1);
@@ -33,15 +33,15 @@ document.addEventListener("DOMContentLoaded", function() {
     typeText(); // Start the typing animation
 });
 document.addEventListener("DOMContentLoaded", function() {
-    const changingText = document.getElementById("changing-text-2");
-    const texts = ["  ", "I am Abyss", "Im a dumbass", "Will Update.", "Until Next Update Love ♥"];
-    let counter = 0;
-    let currentText = "";
-    let isDeleting = false;
-    const typingSpeed = 100; // Adjust typing speed (in milliseconds)
+    var changingText = document.getElementById("changing-text-2");
+    var texts = ["  ","I am Abyss","Im a dumbass","Will Probably Update.","Until Next Update Love ♥"];
+    var counter = 0;
+    var currentText = "";
+    var isDeleting = false;
+    var typingSpeed = 100; // Adjust typing speed (in milliseconds)
 
     function typeText() {
-        const text = texts[counter];
+        var text = texts[counter];
 
         if (isDeleting) {
             currentText = text.substring(0, currentText.length - 1);
@@ -78,21 +78,22 @@ document.addEventListener("DOMContentLoaded", function() {
 
         hours = hours % 12 || 12;
 
-        clockElement.textContent = `${hours}:${minutes}:${seconds} ${ampm}`;
+        const timeString = `${hours}:${minutes}:${seconds} ${ampm}`;
+        clockElement.textContent = timeString;
     }
     setInterval(updateClock, 1000);
     updateClock();
 });
 document.addEventListener("DOMContentLoaded", function() {
-    const texts = ["Friends", "Hugs", "love"];
-    const changingText = document.getElementById("changing-Footer");
-    let counter = 0;
-    let currentText = "";
-    let isDeleting = false;
-    const typingSpeed = 100; // Adjust typing speed (in milliseconds)
+    var texts = ["Friends", "Hugs","love"];
+    var changingText = document.getElementById("changing-Footer");
+    var counter = 0;
+    var currentText = "";
+    var isDeleting = false;
+    var typingSpeed = 100; // Adjust typing speed (in milliseconds)
 
     function typeText() {
-        const text = texts[counter];
+        var text = texts[counter];
 
         if (isDeleting) {
             currentText = text.substring(0, currentText.length - 1);
@@ -119,15 +120,15 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 document.addEventListener("DOMContentLoaded", function() {
-    const texts = ["16", "Coding Idiot", "How The FUCK do i fix that???"];
-    const changingText = document.getElementById("changing-text-3");
-    let counter = 0;
-    let currentText = "";
-    let isDeleting = false;
-    const typingSpeed = 200; // Adjust typing speed (in milliseconds)
+    var texts = ["16","Coding Idiot","I keep getting sidetracked","Someone teach me how to code","I've made too many mistakes.","How The FUCK do i fix that???"];
+    var changingText = document.getElementById("changing-text-3");
+    var counter = 0;
+    var currentText = "";
+    var isDeleting = false;
+    var typingSpeed = 200; // Adjust typing speed (in milliseconds)
 
     function typeText() {
-        const text = texts[counter];
+        var text = texts[counter];
 
         if (isDeleting) {
             currentText = text.substring(0, currentText.length - 1);
@@ -140,7 +141,7 @@ document.addEventListener("DOMContentLoaded", function() {
         // If typing is complete, toggle to deleting or move to the next text
         if (!isDeleting && currentText === text) {
             isDeleting = true;
-            setTimeout(typeText, 9000); // Pause before starting to delete
+            setTimeout(typeText, 7500); // Pause before starting to delete
         } else if (isDeleting && currentText === "") {
             isDeleting = false;
             counter = (counter + 1) % texts.length;
@@ -154,15 +155,15 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 document.addEventListener("DOMContentLoaded", function() {
-    const texts = ["Abyss.", "I Tend To Run Away From Things I Love."];
-    const changingText = document.getElementById("End");
-    let counter = 0;
-    let currentText = "";
-    let isDeleting = false;
-    const typingSpeed = 1500; // Adjust typing speed (in milliseconds)
+    var texts = ["Abyss.", "I Tend To Run Away From Things I Love."];
+    var changingText = document.getElementById("End");
+    var counter = 0;
+    var currentText = "";
+    var isDeleting = false;
+    var typingSpeed = 1500; // Adjust typing speed (in milliseconds)
 
     function typeText() {
-        const text = texts[counter];
+        var text = texts[counter];
 
         if (isDeleting) {
             currentText = text.substring(0, currentText.length - 1);
