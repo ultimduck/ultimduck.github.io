@@ -290,6 +290,12 @@ body{
     text-align: center;
     color: #2e2e2e;
 }
+.Bday{
+    margin-top: -5px;
+    font-size: smaller;
+    text-align: center;
+    color: #191919;
+}
 .Footer-Text{
     text-align: center;
 }

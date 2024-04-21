@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 document.addEventListener("DOMContentLoaded", function() {
     var changingText = document.getElementById("changing-text-2");
-    var texts = ["  ","I am Abyss","Im a dumbass","Will Probably Update.","Until Next Update Love ♥"];
+    var texts = ["  ","I am Abyss","Im a dumbass","Will Update.","Until Next Update Love ♥"];
     var counter = 0;
     var currentText = "";
     var isDeleting = false;
