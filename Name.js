@@ -55,7 +55,7 @@ function displayWebsite() {
             typeText('> Going to Onswix In A New Tab.', notFoundMessage, function() {
                 setTimeout(function() {
                     // window.location.href = './friend.html';
-                    window.open('./friend.html', '_blank'); // Open in new tab
+                    window.open('./friend', '_blank'); // Open in new tab
                 }, 3000); // Redirect delay
                 isDisplaying = false; // Reset flag after function is done
             });
@@ -64,7 +64,7 @@ function displayWebsite() {
         typeText('> Name found.', notFoundMessage, function() {
             typeText('> Going to Abyss.', notFoundMessage, function() {
                 setTimeout(function() {
-                    window.location.href = './Abyss.html';
+                    window.location.href = './Abyss';
                 }, 3000); // Redirect delay
                 isDisplaying = false; // Reset flag after function is done
             });
@@ -73,7 +73,7 @@ function displayWebsite() {
         typeText('> Name found.', notFoundMessage, function() {
             typeText('> Going to Aya.', notFoundMessage, function() {
                 setTimeout(function() {
-                    window.location.href = './aya.html';
+                    window.location.href = './aya';
                 }, 3000); // Redirect delay
                 isDisplaying = false; // Reset flag after function is done
             });
@@ -82,7 +82,7 @@ function displayWebsite() {
         typeText('> Name found.', notFoundMessage, function() {
             typeText('> Going to Jhinx.', notFoundMessage, function() {
                 setTimeout(function() {
-                    window.location.href = './jhinx.html';
+                    window.location.href = './jhinx';
                 }, 3000); // Redirect delay
                 isDisplaying = false; // Reset flag after function is done
             });
@@ -92,7 +92,7 @@ function displayWebsite() {
             setTimeout(function() {
                 typeText('> Going To Not_Found.', notFoundMessage, function() {
                     setTimeout(function() {
-                        window.location.href = './Not_Found.html';
+                        window.location.href = './Not_Found';
                         // window.open('./Not_Found.html', '_blank'); // Open in new tab
                     }, 3000); // Redirect delay
                 });
