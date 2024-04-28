@@ -150,3 +150,10 @@ document.addEventListener('keydown', function(event) {
         location.reload(); // Reload the page
     }
 });
+// Refresh the page when Ctrl+Shift+C is pressed
+document.addEventListener('keydown', function(event) {
+    if (event.ctrlKey && event.shiftKey && event.key === 'c') {
+        event.preventDefault(); // Prevent the default action (viewing page source)
+        location.reload(); // Reload the page
+    }
+});
