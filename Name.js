@@ -1,8 +1,5 @@
-// CURRENT NAMES: ONSWIX, ABYSS., AYA, JHINX, empty. 
-
-
 var isDisplaying = false; // Flag to track if displayWebsite is already running
-
+var ab = "abyss."
 function typeText(text, element, callback) {
     var currentText = '';
     var index = 0;
@@ -40,7 +37,7 @@ function typeText(text, element, callback) {
 
     type();
 }
-
+var EG = "4r6$3r3v21lmp"
 function displayWebsite() {
     if (isDisplaying) {
         return; // If already displaying, do nothing
@@ -50,9 +47,9 @@ function displayWebsite() {
     var name = document.getElementById('nameInput').value.toLowerCase();
     var notFoundMessage = document.getElementById('notFoundMessage');
 
-    if (name === 'onswix') {
-        typeText('Name found.', notFoundMessage, function() {
-            typeText('> Going to Onswix In A New Tab.', notFoundMessage, function() {
+    if (name === on) {
+        typeText('> Name found.', notFoundMessage, function() {
+            typeText('> Going to '+ on +' In A New Tab.', notFoundMessage, function() {
                 setTimeout(function() {
                     // window.location.href = './friend.html';
                     window.open('./friend', '_blank'); // Open in new tab
@@ -60,29 +57,52 @@ function displayWebsite() {
                 isDisplaying = false; // Reset flag after function is done
             });
         });
-    } else if (name === 'abyss.') {
+    } else if (name === ab) {
         typeText('> Name found.', notFoundMessage, function() {
-            typeText('> Going to Abyss.', notFoundMessage, function() {
+            typeText('> Going to '+ab, notFoundMessage, function() {
                 setTimeout(function() {
                     window.location.href = './Abyss';
                 }, 3000); // Redirect delay
                 isDisplaying = false; // Reset flag after function is done
             });
         });
-    } else if (name === 'aya') {
+    } else if (name === a) {
         typeText('> Name found.', notFoundMessage, function() {
-            typeText('> Going to Aya.', notFoundMessage, function() {
+            typeText('> Going to '+a+'.', notFoundMessage, function() {
                 setTimeout(function() {
                     window.location.href = './aya';
                 }, 3000); // Redirect delay
                 isDisplaying = false; // Reset flag after function is done
             });
         });
-    } else if (name === 'jhinx') {
+    } else if (name === jh) {
         typeText('> Name found.', notFoundMessage, function() {
-            typeText('> Going to Jhinx.', notFoundMessage, function() {
+            typeText('> Going to '+jh+'.', notFoundMessage, function() {
                 setTimeout(function() {
                     window.location.href = './jhinx';
+                }, 3000); // Redirect delay
+                isDisplaying = false; // Reset flag after function is done
+            });
+        });
+    } else if (name === 'j3r64o') {
+        typeText('> Name Found.', notFoundMessage, function() {
+            typeText('> File Corrupted.', notFoundMessage, function() {
+                typeText('> Attempting Restoration...', notFoundMessage, function() {
+                    setTimeout(function() {
+                        window.open('./Corrupted', '_blank');
+                        typeText('> File Failed To Restore.', notFoundMessage, function() {});
+                    }, 3000);// Redirect delay
+                    isDisplaying = false; // Reset flag after function is done
+                });
+                typeText('> 4r6$3..', notFoundMessage, function() {});
+            });
+            typeText('> Help.', notFoundMessage, function() {});
+        });
+    } else if (name === EG) {
+        typeText('> Name found.', notFoundMessage, function() {
+            typeText('> Going to '+EG+'.', notFoundMessage, function() {
+                setTimeout(function() {
+                    window.location.href = './EG';
                 }, 3000); // Redirect delay
                 isDisplaying = false; // Reset flag after function is done
             });
@@ -100,7 +120,7 @@ function displayWebsite() {
         });
     }
 }
-
+var on = "onswix"
 document.getElementById('nameInput').addEventListener('keyup', function(event) {
     if (event.key === 'Enter') {
         displayWebsite();
@@ -157,3 +177,12 @@ document.addEventListener('keydown', function(event) {
         location.reload(); // Reload the page
     }
 });
+var a = "aya"
+
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    var bootSound = document.getElementById('bootSound');
+    bootSound.play();
+});
+var jh = "jhinx"
