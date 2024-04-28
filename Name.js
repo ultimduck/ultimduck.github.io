@@ -150,9 +150,9 @@ document.addEventListener('keydown', function(event) {
         location.reload(); // Reload the page
     }
 });
-// Refresh the page when Ctrl or shift is pressed
+// Refresh the page when Ctrl is pressed
 document.addEventListener('keydown', function(event) {
-    if (event.ctrlKey || event.shiftKey) {
+    if (event.ctrlKey) {
         event.preventDefault(); // Prevent the default action
         location.reload(); // Reload the page
     }
