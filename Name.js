@@ -150,9 +150,9 @@ document.addEventListener('keydown', function(event) {
         location.reload(); // Reload the page
     }
 });
-// Refresh the page when Ctrl is pressed
+// Refresh the page when Ctrl or F12 is pressed
 document.addEventListener('keydown', function(event) {
-    if (event.ctrlKey) {
+    if (event.ctrlKey || event.key === "F12") {
         event.preventDefault(); // Prevent the default action
         location.reload(); // Reload the page
     }
