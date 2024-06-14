@@ -3,7 +3,7 @@ function scrollToSection(sectionId) {
     if (section) {
         section.scrollIntoView({ behavior: 'smooth' });
     }
-}
+};
  // Function to set the volume of the video to a low level
         function setLowVolume() {
             const video = document.getElementById('video-30%');

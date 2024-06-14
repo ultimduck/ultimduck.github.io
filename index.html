@@ -1,71 +1,36 @@
-<!DOCTYPE html><html lang="en"><head>
-    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Caveat:regular,500,600,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,regular,500,600,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Fira+Mono:regular,500,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,200,300,regular,500,600,700,100italic,200italic,300italic,italic,500italic,600italic,700italic" rel="stylesheet">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./Css/main.css">
-    <link rel="stylesheet" href="./Css/Media.css">
-    <link rel="icon" href="./Assets/Logos/Logo%20favicon.PNG">
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata:200,300,regular,500,600,700,800,900" rel="stylesheet" />
+    <link rel="stylesheet" href="./Css/Name.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <title>Abyss</title>
+    <title></title>
 </head>
 <body>
+    <audio id="bootSound" src="./Assets/Sounds/retro-audio-logo-94648.mp3" preload="auto"></audio>
     <div id="page-preloader">
-        <script type="text/javascript">$(window).on('load', function(){
-            let $pre = $('#page-preloader');
-            $pre.delay(500).fadeOut(3000);}); </script>
+        <script type="text/javascript">$(window).on('load', function(){var $pre = $('#page-preloader');$pre.delay(500).fadeOut(3000);});</script>
     </div>
-    <nav>
-        <div class="navbar">
-            <p style="text-decoration: underline;">Home</p>
-        </div>
-        <div class="Top">
-            <div class="Flex-Center">
-                <img src="./Assets/Logos/Profile.jpg" class="Small-Logo" style="border-radius: 100%;" alt="">
-                <div class="P-text">
-                    <p class="Bigger-Text" id="changing-text"></p>
-                </div>
-            </div>   
-        </div>
-    </nav>
-
-    <main>
-        <div class="Desc">
-            <p class="Desc-Text" id="changing-text-2"></p>
-        </div>
-            <div class="Desc2">
-                <p class="Desc-Text" id="changing-text-3"></p>
-            </div>
-        <div class="Buttons-Div">
-            <a href="https://t.me/TheMarcyline" target="_blank" class="Buttons-L">
-                <button class="Links-L">Telegram</button>
-            </a>
-            <a href="https://www.tiktok.com/@absoluetlynothing?_r=1&_d=e9llg29kjbjmgj&sec_uid=MS4wLjABAAAAr6YrcuFIuXk3x6HgMpUdlMxR1oY7b1-LoT0fElxjVWPCW9_3E2dEqYjJDiEB_Gh6&share_author_id=6778056527523267590&sharer_language=en&source=h5_m&u_code=da6h936keell64&ug_btm=b8727,b0&sec_user_id=MS4wLjABAAAAr6YrcuFIuXk3x6HgMpUdlMxR1oY7b1-LoT0fElxjVWPCW9_3E2dEqYjJDiEB_Gh6&utm_source=copy&social_share_type=4&utm_campaign=client_share&utm_medium=ios&tt_from=copy&user_id=6778056527523267590&share_link_id=1D33936A-D7D0-4C23-AECD-655F7EC2D499&share_app_id=1233" target="_blank" class="Buttons-R">
-                <button class="Links-R">Shitty TikTok</button>
-            </a>
-        </div>
-        <a href="https://open.spotify.com/playlist/6ImxbkSq7Xiui3GMIQT4fg?si=43cda20fd1c94fc6&amp;pt=f04ca2f30a73d6297e4f90afeec8d1e2" target="_blank" class="Buttons-M">
-            <button class="Links-M">Spotify</button>
-        </a>
-    </main>
-
-    <footer>
-        <div class="Links-F">
-            <div style="text-align: center;">
-                <p class="Footer-Text" id="changing-Footer" style="color:  #404040;"></p>
-            </div>
-            
-            <p class="T-End" id="End">abyss.</p> 
-            <div class="clock" id="clock"></div>
-        </div>
-        <div style="display: flex; justify-content: center;">
-            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/527EuC38chQfXHIXIkPaui?utm_source=generator&amp;theme=0" width="85%" height="152" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-        </div>
-    </footer>
-
-    <script src="./script.js"></script>
-
-</body></html>
+    <label for="nameInput">> Enter your name:</label>
+    <input type="text" id="nameInput" class="input">
+    <p id="notFoundMessage"></p>
+    <div id="websiteDisplay"></div>
+    <p style="padding-top: 200px;"><pre style="padding-top: 140px;font-size: medium; display: flex; justify-content: end; text-align: end;">
+                                                                               ,----..                 
+    ,---,            ,---,.                  .--.--.      .--.--.             /   /   \     .--.--.    
+   '  .' \         ,'  .'  \         ,---,  /  /    '.   /  /    '.          /   .     :   /  /    '.  
+  /  ;    '.     ,---.' .' |        /_ ./| |  :  /`. /  |  :  /`. /         .   /   ;.  \ |  :  /`. /  
+ :  :       \    |   |  |: |  ,---, |  ' : ;  |  |--`   ;  |  |--`         .   ;   /  ` ; ;  |  |--`   
+ :  |   /\   \   :   :  :  / /___/ \.  : | |  :  ;_     |  :  ;_           ;   |  ; \ ; | |  :  ;_     
+ |  :  ' ;.   :  :   |    ;   .  \  \ ,' '  \  \    `.   \  \    `.        |   :  | ; | '  \  \    `.  
+ |  |  ;/  \   \ |   :     \   \  ;  `  ,'   `----.   \   `----.   \       .   |  ' ' ' :   `----.   \ 
+ '  :  | \  \ ,' |   |   . |    \  \    '    __ \  \  |   __ \  \  |       '   ;  \; /  |   __ \  \  | 
+ |  |  '  '--'   '   :  '; |     '  \   |   /  /`--'  /  /  /`--'  /        \   \  ',  /   /  /`--'  / 
+ |  :  :         |   |  | ;       \  ;  ;  '--'.     /  '--'.     /          ;   :    /   '--'.     /  
+ |  | ,'         |   :   /         :  \  \   `--'---'     `--'---'            \   \ .'      `--'---'   
+ `--''           |   | ,'           \  ' ;                                     `---`                   
+                 `----'              `--`                                                              
+</pre></p>
+    <script src="Name.min.js"></script>
+</body>
+</html>

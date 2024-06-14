@@ -1,0 +1,55 @@
+*{ 
+    margin: 0;
+    padding: 0;
+}
+.Scrollbar{
+    position: fixed;
+    width: 100%;
+    padding-bottom: 10px;
+    background-color: rgb(20,20,20);
+    display: flex;
+    justify-content: space-evenly;
+    font-size: x-small;
+}
+.navbar{
+    padding-top: 60px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    background-color: rgb(20,20,20);
+    display: flex;
+    justify-content: space-evenly;
+    font-size: x-small;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.Video-Container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+.ScrollC{
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+    font-size:large;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.ScrollC:hover{
+    cursor: pointer;
+}
+#section1:hover{
+    cursor:default;
+}
+#section2:hover{
+    cursor:default;
+}
+#section3:hover{
+    cursor:default;
+}
