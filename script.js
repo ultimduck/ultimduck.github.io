@@ -85,7 +85,7 @@ document.addEventListener("DOMContentLoaded", function() {
     updateClock();
 });
 document.addEventListener("DOMContentLoaded", function() {
-    var texts = ["Friends", "Hugs","love"];
+    var texts = ["Loneliness.", "Hate.","Isolated.","Sonder.","Chrysalism.","Monachopsis.","Lachesism.","Liberosis.","Drowning."];
     var changingText = document.getElementById("changing-Footer");
     var counter = 0;
     var currentText = "";
@@ -120,7 +120,7 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 document.addEventListener("DOMContentLoaded", function() {
-    var texts = ["16","Coding Idiot","I keep getting sidetracked","Someone teach me how to code","I've made too many mistakes.","How The FUCK do i fix that???"];
+    var texts = ["16","Idiot","I keep getting sidetracked","I've made too many mistakes.","I just need a friend.","Please."];
     var changingText = document.getElementById("changing-text-3");
     var counter = 0;
     var currentText = "";
