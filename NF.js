@@ -19,7 +19,7 @@ function typeTitle(title, delay = 100) {
 // Example usage
 typeTitle('Not_Found...', 250); // Adjust the delay (in milliseconds) as needed
 document.addEventListener("DOMContentLoaded", function() {
-    var texts = ["Incorrect...","Who Are You..?","Do You Know Me..?","Don't Snoop Around Too Much."];
+    var texts = ["Incorrect...","Who Are You..?","Leave me alone.","Don't Snoop Around Too Much."];
     var changingText = document.getElementById("changing-text");
     var counter = 0;
     var currentText = "";

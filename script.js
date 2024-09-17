@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
-    var texts = ["Abyss","The Dumbass","An Idiot"];
+    var texts = ["Abyss","The Dumbass.","The Hated.","The Isolated.","The Monachopsis.","The Persistant."];
     var changingText = document.getElementById("changing-text");
     var counter = 0;
     var currentText = "";
@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 document.addEventListener("DOMContentLoaded", function() {
     var changingText = document.getElementById("changing-text-2");
-    var texts = ["  ","I am Abyss","Im a dumbass","Will Update.","Until Next Update Love ♥"];
+    var texts = ["  ","Im Abyss","Im an idiot","Im Hated For Not Giving Up.","And I wont."];
     var counter = 0;
     var currentText = "";
     var isDeleting = false;
