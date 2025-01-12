@@ -120,7 +120,7 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 document.addEventListener("DOMContentLoaded", function() {
-    var texts = ["16","Idiot","I keep getting sidetracked","I've made too many mistakes.","I just need a friend.","Please."];
+    var texts = ["17","Idiot","I keep getting sidetracked","I've made too many mistakes.","I just need a friend.","Please."];
     var changingText = document.getElementById("changing-text-3");
     var counter = 0;
     var currentText = "";
