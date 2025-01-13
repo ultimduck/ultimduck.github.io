@@ -64,6 +64,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Proceed button event listener
     proceedButton.addEventListener("click", () => {
-        window.location.href = "Names.html"; // Redirect to the main page
+        window.location.href = "./Names"; // Redirect to the main page
     });
 });
