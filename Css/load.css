@@ -1,0 +1,52 @@
+body {
+    font-family: monospace;
+    background-color: #121212;
+    color: #00ff00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+#boot-up-container {
+    text-align: center;
+}
+
+#typing-container {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+#loading-animation {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+#proceed-button {
+    display: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #00ff00;
+    color: #121212;
+    border: none;
+    cursor: pointer;
+}
+
+#proceed-button:hover {
+    background-color: #00cc00;
+}
+
+.blink {
+    display: inline-block;
+    width: 10px;
+    background-color: #00ff00;
+    animation: blink 1s steps(2, start) infinite;
+}
+
+@keyframes blink {
+    50% {
+        background-color: transparent;
+    }
+}

@@ -1,36 +1,18 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <link href="https://fonts.googleapis.com/css?family=Inconsolata:200,300,regular,500,600,700,800,900" rel="stylesheet" />
-    <link rel="stylesheet" href="./Css/Name.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Css/load.css">
+    <title>Boot-Up Screen</title>
+
 </head>
 <body>
-    <audio id="bootSound" src="./Assets/Sounds/retro-audio-logo-94648.mp3" preload="auto"></audio>
-    <div id="page-preloader">
-        <script type="text/javascript">$(window).on('load', function(){var $pre = $('#page-preloader');$pre.delay(500).fadeOut(3000);});</script>
+    <div id="boot-up-container">
+        <div id="typing-container"></div>
+        <div id="loading-animation"></div>
+        <button id="proceed-button">Abyss Os</button>
     </div>
-    <label for="nameInput">> Enter your name:</label>
-    <input type="text" id="nameInput" class="input">
-    <p id="notFoundMessage"></p>
-    <div id="websiteDisplay"></div>
-    <p style="padding-top: 200px;"><pre style="padding-top: 140px;font-size: medium; display: flex; justify-content: end; text-align: end;">
-                                                                               ,----..                 
-    ,---,            ,---,.                  .--.--.      .--.--.             /   /   \     .--.--.    
-   '  .' \         ,'  .'  \         ,---,  /  /    '.   /  /    '.          /   .     :   /  /    '.  
-  /  ;    '.     ,---.' .' |        /_ ./| |  :  /`. /  |  :  /`. /         .   /   ;.  \ |  :  /`. /  
- :  :       \    |   |  |: |  ,---, |  ' : ;  |  |--`   ;  |  |--`         .   ;   /  ` ; ;  |  |--`   
- :  |   /\   \   :   :  :  / /___/ \.  : | |  :  ;_     |  :  ;_           ;   |  ; \ ; | |  :  ;_     
- |  :  ' ;.   :  :   |    ;   .  \  \ ,' '  \  \    `.   \  \    `.        |   :  | ; | '  \  \    `.  
- |  |  ;/  \   \ |   :     \   \  ;  `  ,'   `----.   \   `----.   \       .   |  ' ' ' :   `----.   \ 
- '  :  | \  \ ,' |   |   . |    \  \    '    __ \  \  |   __ \  \  |       '   ;  \; /  |   __ \  \  | 
- |  |  '  '--'   '   :  '; |     '  \   |   /  /`--'  /  /  /`--'  /        \   \  ',  /   /  /`--'  / 
- |  :  :         |   |  | ;       \  ;  ;  '--'.     /  '--'.     /          ;   :    /   '--'.     /  
- |  | ,'         |   :   /         :  \  \   `--'---'     `--'---'            \   \ .'      `--'---'   
- `--''           |   | ,'           \  ' ;                                     `---`                   
-                 `----'              `--`                                                              
-</pre></p>
-    <script src="Name.min.js"></script>
+    <script src="loading.js"></script>
 </body>
 </html>
