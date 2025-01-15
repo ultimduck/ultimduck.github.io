@@ -14,12 +14,30 @@
     background-size: 40% auto;
 }
 body{
-    background-color: rgb(7, 0, 11);
+    background-image: url(../Assets/Videos/CherryLeaves.gif);
+    background-size: 700px;
+    background-color: rgb(46, 0, 40);
+}
+.Top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5px;
+    width: auto;
+    height: 110px;
+    margin: auto;
+    background: url(../Assets/Videos/cherry.gif)center center;
+    background-size:cover;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
 }
 .navbar{
     border-radius: 20px;
     margin-bottom: 10px;
-    background-color: rgb(20,20,20);
+    background-color: rgb(20, 20, 20);
     display: flex;
     justify-content: space-evenly;
     font-size: x-small;
@@ -43,11 +61,12 @@ body{
 .Bigger-Text{
     color:#ffffff;
     padding-left: 20px;
+    font-weight:bolder;
     font-size: x-large;
 }
 .Small-Logo{
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
 }
 #changing-text {
     overflow: hidden;
@@ -67,5 +86,51 @@ body{
     }
 }
 #changing-text-2{
+    overflow: hidden;
+}
+.Desc{
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+    width: 48%;
+    margin: auto;
+    margin-top: 30px;
+    background-color: rgb(47, 0, 59);
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+.Desc-Text{
+    font-family: "Josefin Sans";
+    font-size: x-large;
+    text-align: center;
+}
+#changing-text-3{
+    overflow: hidden;
+}
+.img-holder{
+    width: 50%;
+    height: 50%;
+    border-radius: 20px;
+}
+.Desc-Q{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;
+    width: 48%;
+    height: 250px;
+    margin: auto;
+    margin-top: 100px;
+    background-color: rgb(47, 0, 59);
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+#changing-text-4{
     overflow: hidden;
 }
