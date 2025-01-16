@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 document.addEventListener("DOMContentLoaded", function() {
     var changingText = document.getElementById("changing-text-2");
-    var texts = [" ","Someone who doesnt really care about most things","would probably commit arson if it was legal","Sadly timezones exist"];
+    var texts = ["  ","Someone who doesnt really care about most things","would probably commit arson if it was legal","Sadly timezones exist"];
     var counter = 0;
     var currentText = "";
     var isDeleting = false;
