@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 document.addEventListener("DOMContentLoaded", function() {
     var changingText = document.getElementById("changing-text-2");
-    var texts = ["  ","Im Abyss","Im an idiot","Im Hated For Not Giving Up.","And I wont."];
+    var texts = ["  ","Im Abyss","I'm an idiot","Even A Broken Clock Tells The Time Twice... Right?","Opening Up Is Like Giving A Loaded Gun To Them.",'I Can\'t Stop Seeing "X" On Everyone.',"just let me be SELFISH for once.","whenever i need help, im all alone.","I've done it all alone anyways.","I Don't Need  A n y o n e .","I'm Still here.","Some Care Still, Worry Even.","I hate that.","I'll Bear This Burden.","Alone."];
     var counter = 0;
     var currentText = "";
     var isDeleting = false;
