@@ -120,7 +120,7 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 document.addEventListener("DOMContentLoaded", function() {
-    var texts = ["17","Idiot","I keep getting sidetracked","I've made too many mistakes.","I just need a friend.","Please."];
+    var texts = ["17","Idiot","I can't think straight","Nor can i stop thinking.","I was born to endure, Not to cry","I've made too many mistakes.","I was born to care,","Not to be cared for.","Born To Suffer Alone.","Sometimes I Wish I Was Selfish Enough.","...","Why are you still here?","Leave.","Please."];
     var changingText = document.getElementById("changing-text-3");
     var counter = 0;
     var currentText = "";
@@ -155,7 +155,7 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 document.addEventListener("DOMContentLoaded", function() {
-    var texts = ["Abyss.", "I Tend To Run Away From Things I Love."];
+    var texts = ["Abyss.", "I Tend To Run Away From Things I Love.","I Hate Everything About Myself","I Hate This Place.","I Hate This.","Put Me Out Of My Misery Already."];
     var changingText = document.getElementById("End");
     var counter = 0;
     var currentText = "";
